@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Quiz Game</title>
+  </head>
+  <body>
+    <h1>Quiz Game</h1>
+    <h2> By Justin Sciortino</h2>
+    <form name="myform">
+      Q1.Who is the president of the USA?<br>
+      <input type="radio" name="q1" value="a">Trump for life</br>
+      <input type="radio" name="q1" value="b">Trudeau</br><br>
+      
+      Q2.Who is better? Milo or Ben Shapiro?<br>
+      <input type="radio" name="q2" value="a">Ya Boi Ben</br>
+      <input type="radio" name="q2" value="b">Milo</br><br>
+      
+      Q3.Which rapper is British?<br>
+      <input type="radio" name="q3" value="a">Post malone</br>
+      <input type="radio" name="q3" value="b">21 sAVaGe</br><br>
+
+<input type="button" value="submit" onclick="check()">
+
+<script>
+function check() {
+  var q1=document.myform.q1.value;
+  var q2=document.myform.q2.value;
+  var q3=document.myform.q3.value;
+  var count=0;
+  
+  If(q1=="a"){
+    count++;
+  }
+  if(q2=="a"){
+    count++;
+  }
+  if(q3=="b"){
+    count++;
+  }
+  alert("you got "+count+" marks");
+}
+</script>
+   </form>
+  </body>
+</html>
