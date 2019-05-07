@@ -14,19 +14,19 @@ function check() {
   if(q1=="a"){
     count++;
   }
-  if(q2=="a"){
+  if(q2=="d"){
     count++;
   }
-  if(q3=="a"){
+  if(q3=="c"){
     count++;
   }
-  if(q4=="a"){
+  if(q4=="c"){
     count++;
   }
-  if(q5=="a"){
+  if(q5=="b"){
     count++;
   }
-  if(q6=="a"){
+  if(q6=="d"){
     count++;
   }
   if(q7=="a"){
