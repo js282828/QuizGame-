@@ -4,14 +4,16 @@ h1{
     text-align:center;
 }
 h2{
-  font-size:20px;
+  font-size:27px;
     color: white;
-    text-align:center;
+    text-align:center;  
 }
 body{
   background-color: purple;
+  background-image:url("https://textinmotion.tv/media/backgrounds/000/000/433/background/full/QuizText-BG.jpg");
+  background-position:center;
 }
-#form{
+#form {
   text-align: center;
   color: white;
   font-weight: bold;
