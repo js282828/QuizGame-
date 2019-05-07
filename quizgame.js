@@ -41,5 +41,5 @@ function check() {
   if(q10=="a"){
     count++;
   }
-  alert("You got "+count+" marks");
+  alert("You got "+count+" points");
 }
