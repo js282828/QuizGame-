@@ -32,14 +32,14 @@ function check() {
   if(q7=="a"){
     count++;
   }
-  if(q8=="a"){
+  if(q8=="c"){
     count++;
   }
-  if(q9=="a"){
+  if(q9=="b"){
     count++;
   }
   if(q10=="a"){
     count++;
   }
-  alert("you got "+count+" marks");
+  alert("You got "+count+" marks");
 }
