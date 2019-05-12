@@ -14,10 +14,11 @@ body{
   background-position:center;
 }
 #form {
-  text-align: center;
+  text-align: indent;
   color: white;
   font-weight: bold;
   font-size: 20px;
+  padding-left: 200px;
 }
 * {
   font-family: Arial,Times New Roman, serif;
