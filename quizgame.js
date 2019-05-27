@@ -50,9 +50,14 @@ function check() {
    for (i = 0; i < correct.length; i++)   
      correct[i].style.color = "green";
 
+ 
+ 
   var wrong = document.querySelectorAll(".wrong");
- for (i = 0; i < wrong.length; i++)
+ 
+  for (i = 0; i < wrong.length; i++)
      wrong[i].style.color = "red";
+  
+  
   
   alert("You got "+count+" points. The right answers will be in green and the wrong in red.");   //This lets the user know their score once they click submit
 }
