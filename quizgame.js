@@ -45,17 +45,15 @@ function check() {
   }
 
   
- var correct = document.querySelectorAll(".correct");     //This code and the code below make the right the answer turn green after the person submits the quiz
+ var correct = document.querySelectorAll(".correct");
   
-   for (i = 0; i < correct.length; i++)
+   for (i = 0; i < correct.length; i++)   
      correct[i].style.color = "green";
 
-  var wrong = document.querySelectorAll(".wrong");    //This code and the code below make the wrong answers turn red after the player submits the quiz
+  var wrong = document.querySelectorAll(".wrong");
  for (i = 0; i < wrong.length; i++)
      wrong[i].style.color = "red";
   
-  alert("You got "+count+" points");   //This lets the user know their score once they click submit
+  alert("You got "+count+" points. The right answers will be in green and the wrong in red.");   //This lets the user know their score once they click submit
 }
 
-
- 
