@@ -45,12 +45,12 @@ function check() {
   }
 
   
- var correct = document.querySelectorAll(".correct");
+ var correct = document.querySelectorAll(".correct");     //This code and the code below make the right the answer turn green after the person submits the quiz
   
    for (i = 0; i < correct.length; i++)
      correct[i].style.color = "green";
 
-  var wrong = document.querySelectorAll(".wrong");
+  var wrong = document.querySelectorAll(".wrong");    //This code and the code below make the wrong answers turn red after the player submits the quiz
  for (i = 0; i < wrong.length; i++)
      wrong[i].style.color = "red";
   
