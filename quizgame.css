@@ -14,7 +14,6 @@ body{
   background-position:center;
 }
 #form {
-  text-align: indent;
   color: white;
   font-weight: bold;
   font-size: 20px;
@@ -24,3 +23,4 @@ body{
 * {
   font-family: Arial,Times New Roman, serif;
 }
+
