@@ -11,9 +11,11 @@ function check() {
   var q10=document.myform.q10.value;
   var count=0;   //when the game starts, the score/count will be 0
   
+  
+ 
   if(q1=="a"){  //answers to the questions
-    count++;  //if the question is right, the count/score will go up by one
-  }
+    count++;    //If right, the score will go up by one
+}
   if(q2=="d"){
     count++;
   }
@@ -41,5 +43,19 @@ function check() {
   if(q10=="a"){
     count++;
   }
+ //for (i = 0; i < correct.length; i++)
+     //correct[i].style.color = "green";
+  
+ var correct = document.querySelectorAll(".correct");
+  
+   for (i = 0; i < correct.length; i++)
+     correct[i].style.color = "green";
+  
+  //correct.style.color = "green";
+ 
+  
   alert("You got "+count+" points");   //This lets the user know their score once they click submit
 }
+
+
+ 
